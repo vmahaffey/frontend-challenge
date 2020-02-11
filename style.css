@@ -1,0 +1,90 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #808080;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+section {
+  width: 420px;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding-bottom: 0px;
+  position: relative;
+  top: 1px;
+  margin: 7%;
+  width: 420px;
+}
+
+.location {
+  background-color: #0000ff;
+  width: 100%;
+  border-bottom: 2% solid black;
+  float: right;
+  padding:2%
+}
+
+.location :hover { 
+  background-color: #0000ff; 
+}
+
+.arrow {
+  display: inline;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+  top: -32px;
+}
+
+
+h1 {
+position: absolute;
+width: 171px;
+height: 25px;
+left: 94px;
+top: 35px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+
+nav {
+  position: absolute;
+width: 360px;
+height: 48px;
+left: 0px;
+top: 23px;
+
+background: #FFFFFF;
+}
+
+.arrow-left {
+  position: absolute;
+width: 35px;
+height: 33px;
+left: 10px;
+top: 31px;
+}
+
+.bus-schedule {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 20px 15px;
+  width: 100%;
+
+}
