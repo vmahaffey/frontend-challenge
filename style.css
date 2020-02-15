@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.statusbar {
+  background-image: url("mio-staging_mio-design_1576174064000_assets_16gi1uesdllgxkExo7N0uReMDlgzm8c0F_as-statusbar.png");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 18px;
+}
+
+
+
 body {
   background-color: #000000;
   font-family: Noto Sans, sans-serif;
@@ -21,6 +31,7 @@ nav {
   height: 48px;
   top: 23px;
   background: #FFFFFF;
+  
 }
 
 .status-bar {
@@ -29,12 +40,15 @@ nav {
   position: relative;
 }
 
+
 .bus-list {
   padding-top: 20px;
   width: 360px;
   line-height: 1em;
   margin: auto;
 }
+
+
 
 .location1 {
   position: relative;
@@ -48,13 +62,13 @@ nav {
 .location {
   position: relative;
   box-sizing: border-box;
-  float: left;
   background-color: white;
   border-bottom: 1px solid #686868;
 }
 
 .content {
   display: inline-block;
+  widrh: 100%;
 }
 
 .location:hover {
@@ -86,5 +100,3 @@ h3 {
   font-size: 1.3em;
   color: #444444;
 }
-
-
