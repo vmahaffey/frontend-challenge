@@ -59,6 +59,7 @@ body {
 h2 { /* arrival */
     text-align:right;
     font-size: 2em;
+    padding-top: 20px;
     font-weight: bold;
     position:absolute;
     width:75%;
