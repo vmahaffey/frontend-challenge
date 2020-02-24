@@ -59,6 +59,13 @@ body {
   margin: auto;
 }
 
+.arrival {
+    float: right;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: blue;
+}
 
 
 .location1 {
