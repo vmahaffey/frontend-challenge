@@ -4,6 +4,7 @@
 
 .searchbar {
   padding-left: 30px;
+  padding-top: 5px;
   border-radius: 10px;
   margin-left: 24px;
   margin-right: 24px;
@@ -16,7 +17,12 @@
 header {
   width: 360px;
   position: fixed;
-  background-color: white; 
+  background-color: white;
+  font-size: 2em; 
+}
+
+.back-arrow {
+  float: left;
 }
 
 .nav {
@@ -29,7 +35,7 @@ header {
 
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
   font-family: Noto Sans, sans-serif;
   font-size: 10px;
 }
@@ -43,14 +49,14 @@ body {
 
 
 
-.bus-list {
+.list {
   padding-top: 20px;
   width: 360px;
   line-height: 1em;
   margin: auto;
 }
 
-.arrival {
+h2 { /* arrival */
     text-align:right;
     font-size: 2em;
     font-weight: bold;
@@ -75,6 +81,22 @@ body {
   border-bottom: 1px solid #686868;
 }
 
+.col1 {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+  padding: 10px;
+}
+
+.col2 {
+  text-align: left;
+  font-size: 1em;
+  font-weight: regular;
+  color: #686868;
+  padding: 10px;
+}
+
 .content {
   display: inline-block;
   width: 100%;
@@ -91,22 +113,17 @@ body {
 h1 {
   font-size: 24;
   font-weight: bold;
+  text-align: center;
   color: #000000;
 }
 
-h2 {
-  font-size: 14em;
-  font-weight: bold;
-  color: #000000;
-  text-align: right;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 h3 {
   font-size: 1 em;
   color: #444444;
+}
+
+ul.row {
+  list-style-type: none;
 }
 
