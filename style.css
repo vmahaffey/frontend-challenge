@@ -5,10 +5,13 @@
 
 header {
   width: 360px;
-  position: fixed;
-  font-size: 1.2em; 
+  display: inline-block;
+  background-color: white;
+  height: 72px;
+  font-size: 2em; 
   text-align: center;
 }
+
 
 .back-arrow {
   float: left;
