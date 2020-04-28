@@ -6,6 +6,7 @@ img {
   max-width: 100%;
 }
 
+
 header {
   width: 360px;
   display: inline-block;
@@ -22,13 +23,17 @@ header {
 }
 
 .nav {
-  height: 50px;
   margin-top: 80px;
   padding-bottom: 20px;
   position: fixed;
-  width: 100%;
   margin-left: 10px;
   background-color: white;
+  text-align: center;
+	width: 650px;
+	height: 150px;
+	float: center;
+	color: white;
+	margin: auto;
 }
 
 
@@ -79,20 +84,6 @@ body {
 }
 
 
-.nav {
-	margin-top: 0px;
-	padding-top: 40px;
-	width: 650px;
-	height: 150px;
-	background-color: white;
-	float: center;
-	text-align: center;
-	font-size: 1.5em;
-	color: white;
-	margin: auto;
-
-}
-
 
 li {
 	left: 0px;
@@ -121,16 +112,18 @@ li {
 }
 
 .container h1 {
+  font-style: Noto Sans;
 	background-color: white;
-  font-size: 1.5em;
-  text-decoration: underline;
-	font-style: bold;
+  font-size: 18px;
+  text-decoration: none;
+	font-weight: medium;
   padding-bottom: 40px;
 	}
 
 .container h2 {
-	font-size: 1.5em;
-	font-weight: regular;
+  font-style: Noto Sans;
+	font-size: 16px;
+	font-weight: medium;
 	text-align: left;
 	color: black;
   margin-left: 10px;
@@ -155,7 +148,8 @@ li {
 }
 
 .container h5 {
-	font-size: 1.5em;
+  font-style: Noto Sans;
+	font-size: 18px;
 	text-align: right;
 	font-style: bold;
 	color: rgb(0, 106, 205); 
