@@ -19,7 +19,7 @@ header {
 
 .back-arrow {
   float: left;
-  color: gray;
+  color: rgb(194, 190, 190);
 }
 
 .nav {
@@ -34,6 +34,7 @@ header {
 	float: center;
 	color: white;
 	margin: auto;
+  border-bottom: 30px solid #686868;
 }
 
 
@@ -51,7 +52,7 @@ header {
   position: relative;
   box-sizing: border-box;
   background-color: white;
-  border-bottom: 1px solid #686868;
+  border-bottom: 1px solid #D0D4DF;
 }
 
 
@@ -74,7 +75,7 @@ header {
 body {
   position: relative;
 	box-sizing: border-box;
-	background-color: #E5E5E5;
+	background-color: #D0D4DF;
 	font-family: open sans, arial, sans-serif;
 	margin: auto;
 	padding: 0;
@@ -104,57 +105,80 @@ li {
 }
 
 .container {
-	background-color: white;
-	width: 100%;
-	line-height: 10px;
-	display: inline;
-	margin:  10px;
+  background-color: white;
+  width: 100%;
+  line-height: 10px;
+  margin:  10px 0;
+  border-top: 30px solid #D0D4DF;
 }
 
-.container h1 {
+
+ h1 {
   font-style: Noto Sans;
 	background-color: white;
   font-size: 18px;
   text-decoration: none;
 	font-weight: medium;
   padding-bottom: 40px;
-	}
+}
 
 .container h2 {
-  font-style: Noto Sans;
-	font-size: 16px;
-	font-weight: medium;
-	text-align: left;
-	color: black;
-  margin-left: 10px;
-  padding-top: 25px;
+ position: relative;
+ font-style: Noto Sans;
+ font-size: 16px;
+ font-weight: medium;
+ text-align: left;
+ color: black;
+ float: center;
+ margin-left: 15px;
 }
+
 
 .container h3 {
 	font-size: 1em;
 	text-align: left;
 	color: #757575;
-	padding-top: 15px;
+  float: center;
+  padding-top: 15px;
 	margin-left: 15px;
-	margin-bottom: 15px;
   margin-right: 15px;
 }
 
 .container h4 {
-	font-size: 1em;
-	font-style: italic;
-	color: #757575;
+	font-size: 16px;
+  font-weight: medium;
+	font-style: Noto Sans;
+  text-decoration: underline;
+  float: center;
+	color: black;
 	margin-left: 15px;
 }
 
 .container h5 {
-  font-style: Noto Sans;
-	font-size: 18px;
-	text-align: right;
-	font-style: bold;
-	color: rgb(0, 106, 205); 
-	margin-right: 15px;
+ font-style: Noto Sans;
+ font-size: 18px;
+ text-align: right;
+ font-weight: bold;
+ position:relative;
+ color: #2D9ECF;
+ margin-right: 15px;
 }
+
+.number {
+  position: relative;
+  top: 10px;
+}
+
+.location {
+  position: relative;
+  top: 10px;
+}
+
+.time {
+  position: relative;
+  top: 10px;
+}
+
 
 .right {
 	float: right;
@@ -163,10 +187,11 @@ li {
 
 .content {
 	background-color: rgb(255, 255, 255);
-	border-top: .3px solid #757575;
-	border-bottom: .4px solid #757575;
+	border-top: .3px solid #D0D4DF;
+	border-bottom: .4px solid #D0D4DF;
 	width: 100%;
-	padding-bottom: 40px;
+  padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 
