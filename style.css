@@ -207,6 +207,6 @@ h1 {
 }
 
 
-section.content:hover {
+ul.content:hover {
 	background-color: #E5E5E5;
 }
