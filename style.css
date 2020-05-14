@@ -39,36 +39,10 @@ header {
 
 
 
-.location1 {
-  position: relative;
-  box-sizing: border-box;
-  background-color: white;
-  border-bottom: 1px solid #686868;
-  padding: 20px;
-  margin-top: 16px;
-}
-
-.location {
-  position: relative;
-  box-sizing: border-box;
-  background-color: white;
-  border-bottom: 1px solid #D0D4DF;
-}
-
-
 .content {
   display: inline-block;
   width: 100%;
 }
-
-.location:hover {
-  background-color: gray;
-}
-
-.location1:hover {
-  background-color: gray;
-}
-
 
 
 
@@ -113,27 +87,18 @@ li {
 }
 
 .number {
-  background-color: red;
-  padding: 8px;
-  border: 1px solid red;
   border-radius: 10px;
   margin-right: 16px;
+  font-weight: bold;
 }
 
-.number2 {
-  background-color: rgb(95, 133, 184);
-  padding: 8px;
-  border: 1px solid  rgb(95, 133, 184);
-  border-radius: 10px;
-  margin-right: 16px;
+.direction {
+  font-size: 14px;
+  padding: 6px;
 }
 
-.number3 {
-  background-color: gray;
-  padding: 8px;
-  border: 1px solid gray;
-  border-radius: 10px;
-  margin-right: 16px;
+.stop {
+  font-weight: medium;
 }
 
 
@@ -142,7 +107,7 @@ h1 {
 	background-color: white;
   font-size: 18px;
   text-decoration: none;
-	font-weight: medium;
+  font-weight: medium;
   padding-bottom: 20px;
 }
 
@@ -150,7 +115,6 @@ h1 {
  position: relative;
  font-style: Noto Sans;
  font-size: 16px;
- font-weight: medium;
  text-align: left;
  float: center;
  left: 15px;
@@ -171,9 +135,8 @@ h1 {
 	font-size: 16px;
   font-weight: medium;
 	font-style: Noto Sans;
-  text-decoration: underline;
   float: center;
-	color: black;
+	color: red;
 	margin-left: 15px;
 }
 
@@ -186,10 +149,11 @@ h1 {
     position: relative;
 }
 
-.location {
-  position: relative;
-  top: 10px;
+.time {
+  font-weight: extra bold;
+  font-size: 22px;
 }
+
 
 
 .right {
@@ -204,9 +168,4 @@ h1 {
 	width: 100%;
   padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-
-ul.content:hover {
-	background-color: #E5E5E5;
 }
